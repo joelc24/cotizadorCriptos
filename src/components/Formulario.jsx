@@ -22,7 +22,7 @@ const Formulario = () => {
 
     
 
-    const [ SelectMonenedas ] = useSelectMonedas('Elige Tu moneda', monedas)
+    const [ moneda, SelectMonenedas ] = useSelectMonedas('Elige Tu moneda', monedas)
     
 
     
